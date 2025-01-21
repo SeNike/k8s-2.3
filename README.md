@@ -7,10 +7,10 @@
 
 ### Задание 1. Создать Deployment приложения и решить возникшую проблему с помощью ConfigMap. Добавить веб-страницу
 
-1. Создать Deployment приложения, состоящего из контейнеров nginx и multitool.
-2. Решить возникшую проблему с помощью ConfigMap.
+1. Создать [Deployment](https://github.com/SeNike/k8s-2.3/blob/main/deployment.yaml) приложения, состоящего из контейнеров nginx и multitool.
+2. Решить возникшую проблему с помощью [ConfigMap](https://github.com/SeNike/k8s-2.3/blob/main/configmap.yaml).
 3. Продемонстрировать, что pod стартовал и оба конейнера работают.
-4. Сделать простую веб-страницу и подключить её к Nginx с помощью ConfigMap. Подключить Service и показать вывод curl или в браузере.
+4. Сделать простую веб-страницу и подключить её к Nginx с помощью ConfigMap. Подключить [Service](https://github.com/SeNike/k8s-2.3/blob/main/service.yaml) и показать вывод curl или в браузере.
 5. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/2.3/2.3.1.png)
@@ -25,7 +25,7 @@
 1. Создать Deployment приложения, состоящего из Nginx.
 2. Создать собственную веб-страницу и подключить её как ConfigMap к приложению.
 3. Выпустить самоподписной сертификат SSL. Создать Secret для использования сертификата.
-4. Создать Ingress и необходимый Service, подключить к нему SSL в вид. Продемонстировать доступ к приложению по HTTPS. 
+4. Создать [Ingress](https://github.com/SeNike/k8s-2.3/blob/main/ingress.yaml) и необходимый [Service](https://github.com/SeNike/k8s-2.3/blob/main/ssl-service.yaml), подключить к нему SSL в вид. Продемонстировать доступ к приложению по HTTPS. 
 4. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 5. 
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/2.3/2.3.3.png)
